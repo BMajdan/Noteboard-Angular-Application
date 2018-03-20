@@ -1,0 +1,210 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #E0E0E0;
+	overflow: hidden;
+	box-sizing: border-box;
+	font-family: 'Calibri', sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.setNameScreenTitle{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 250px;
+}
+
+.setNameScreenTitle h2{
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+.setNameScreenInput{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.setNameScreenInput input{
+	background: #E0E0E0;
+	border: none;
+	border-bottom: 1px dotted black;
+	width: 35%;
+	outline: none;
+	font-size: 20px;
+}
+
+.setNameScreenInput i{
+	font-size: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.setNameScreenInput i:hover{
+	color: white;
+}
+
+.backgroundOpacity{
+	display: none;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.alertCard{
+	width: 600px;
+	height: 200px;
+	background-color:#E0E0E0;
+	border-radius: 5px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	right: 25%;
+	bottom: 25%;
+	box-sizing: border-box;
+	padding: 50px;
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+	text-align:center;
+	font-size: 30px;
+	color: black;
+}
+
+.button{
+	box-sizing: border-box;
+	padding: 10px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: black;
+	cursor: pointer;
+}
+
+.button i{
+	font-size: 30px;
+}
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	background: black;
+	height: 50px;
+	color: white;
+	z-index: 998;
+}
+
+.header .createButton{
+	width: 50%;
+	float: left;
+}
+
+.header .createButton i{
+	font-size: 25px;
+	color: white;
+	line-height: 55px;
+	vertical-align: middle;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.header .boardInfo{
+	width: 10%;
+	float: right;
+	text-align: left;
+}
+
+.header .boardInfo p{
+	margin: 0px;
+	line-height: 20px;
+	margin-top: 3px;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+.note{
+	position: absolute;
+	z-index: 2;
+	top: 100px;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	min-width: 200px;
+	min-height: 200px;
+	border: 1px solid black;
+	padding: 15px;
+	box-sizing: border-box;
+	cursor: grab;
+	background: white;
+}
+
+.note .title{
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	resize: none;
+	width: 100%;
+	height: 30px;
+	display: block;
+	outline: none;
+	line-height: 30px;
+	color: black;
+	vertical-align: middle;
+	z-index: 1;
+}
+
+.note .cnt{
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	resize: none;
+	width: 100%;
+	height: 150px;
+	display: block;
+	outline: none;
+	line-height: 30px;
+	color: black;
+	vertical-align: middle;
+}
+
+.note .buttonRemove{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
+.body{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	background: white;
+	height: calc(100% - 100px);
+	z-index: 1;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: black;
+	height: 50px;
+	color: white;
+	text-align: center;
+	z-index: 999;
+}
