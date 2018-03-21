@@ -1,4 +1,4 @@
-# Noteboard Angular App
+# Noteboard Application in AngularJS
 
 ## **Create your own board with notes!**
 
